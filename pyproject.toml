@@ -2,6 +2,7 @@
 # Target the simplejwt package
 files = "./simplejwt/rest_framework_simplejwt"
 plugins = ["mypy_django_plugin.main", "mypy_drf_plugin.main"]
+exclude = [".*/migrations/[0-9]{4}_.*.py$"]
 show_error_codes = true
 # Be more strict
 disallow_untyped_defs = true
