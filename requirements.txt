@@ -1,0 +1,16 @@
+# Project dependencies
+django == 3.2.18  # Compatible version with Python 3.7.0
+djangorestframework == 3.14.0
+-e ./simplejwt
+
+# For mypy
+mypy == 1.1.1
+django-stubs == 1.15.0
+djangorestframework-stubs == 1.9.1
+
+# Missing types unrelated to the project (mypy autodetected missing)
+types-Markdown == 3.4.2.5
+types-Pygments == 2.14.0.6
+types-docutils == 0.19.1.6
+types-psycopg2 == 2.9.21.8
+types-setuptools == 67.6.0.0
