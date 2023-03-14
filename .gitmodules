@@ -1,0 +1,4 @@
+[submodule "simplejwt"]
+	path = simplejwt
+	url = https://github.com/PedroPerpetua/djangorestframework-simplejwt.git
+    branch = improve-typing
